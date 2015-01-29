@@ -4,7 +4,7 @@ var bio = {
 	role: "Web Developer",
 	contact: {
 		mobile: "848-565-4893",
-		email: "jdeepakswami07@gmail.com",
+		email: "deepakswami07@gmail.com",
         github: "deepakswami07",
         twitter: "@ddeepak",
         location: "NYC"
@@ -26,3 +26,7 @@ $("#header").prepend(formattedName);
 var mobile = bio.contact.mobile;
 var formattedMobile = HTMLmobile.replace("%data%", mobile);
 $("#topContacts").append(formattedMobile);
+
+var email = bio.contact.email;
+var formattedEmail = HTMLemail.replace("%data%", email);
+$("#topContacts").append(formattedEmail);
